@@ -1,5 +1,5 @@
 [alias]
-
+#   C:/Users/%userprofile%/.gitconfig
 # git config --global alias.co checkout
 co = checkout
 cob = checkout -b
@@ -19,6 +19,7 @@ st = status
 # git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 
+po = push origin
 
 
 
